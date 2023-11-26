@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decorationlist</title>
+</head>
+<body>
+    {% for i in data %}
+    <ol type="1">
+        <li>
+            title:{{i.title}}
+        </li>
+        <li>
+            price:{{i.price}}
+        </li>
+        <li>
+            description:{{i.description}}
+        </li>
+    </ol>
+    {% endfor %}
+</body>
+</html>
